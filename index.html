@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,30 +17,63 @@
   </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+  <div class="sections">
+      <div class="section_one">
+        <h2 class="section_one__title">Reliable, efficient delivery</h2>
+        <h2 class="section_one__title2">Powered by Technology</h2>
+        <p class="section_one__text">
+            Our Artificial Intelligence powered tools use millions of project data points 
+            to ensure that your project is successful
+        </p>
+      </div>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+      <div class="section_two">
+        <h3 class="section_two__title">Supervisor</h3>
+        <p class="section_two__text">
+            Monitors activity to identify project roadblocks
+        </p>
+        <div class="section_two__imagen">
+            <img src="images/icon-supervisor.svg" alt="Logo" class="section_two__logo">
+        </div>
+      </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class="section_three">
+        <div class="subsection_one">
+            <h3 class="subsection_one__title">Team Builder</h3>
+            <p class="subsection_one__text">
+                Scans our talent network to create the optimal team for your project
+            </p>
+            <div class="subsection_one__imagen">
+                <img src="images/icon-team-builder.svg" alt="logo" class="subsection_one__logo">
+            </div>
+          </div>
+    
+          <div class="subsection_two">
+            <h3 class="subsection_two__title">Karma</h3>
+            <p class="subsection_two__text">
+                Regularly evaluates our talent to ensure quality
+            </p>
+            <div class="subsection_two__imagen">
+                <img src="images/icon-karma.svg" alt="logo" class="subsection_two__logo">
+            </div>
+          </div>
+      </div>
+      <div class="section_four">
+        <h3 class="section_four__title">Calculator</h3>
+        <p class="section_four__text">
+            Uses data from past projects to provide better delivery estimates
+        </p>
+        <div class="section_four__imagen">
+            <img src="images/icon-calculator.svg" alt="logo" class="section_four__logo">
+        </div>
+      </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+  </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Julio Bolivar</a>.
     </p>
   </footer>
 </body>
