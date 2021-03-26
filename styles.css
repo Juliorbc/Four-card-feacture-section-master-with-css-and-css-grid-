@@ -17,6 +17,9 @@ body {
     width: 1120px;
     margin: auto;
     display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "section_one   section_one       section_one"
@@ -48,7 +51,7 @@ body {
     font-weight: 400;
 }
 
-.section_two {
+.section_two, .section_four {
     grid-area: section_two;
     width: 300px;
     padding-top: 30px;
@@ -56,7 +59,8 @@ body {
     padding-left: 35px;
     padding-right: 30px;
     border-radius: 5px;
-    box-shadow: 1px 1px 3px 1px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    height: max-content;
 }
 
 .section_two__title {
@@ -64,14 +68,66 @@ body {
     margin-bottom: 20px;
 }
 
-.section_two_text {
+.section_two__text {
     color: hsl(229, 6%, 66%);
+    font-size: 14px;
+}
+
+.section_two__imagen {
+    text-align: end;
+    padding-top: 25px;
+}
+
+
+.section_four {
+    grid-area: section_four;
+}
+.section_four__title {
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 20px;
+}
+
+.section_four__text {
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+}
+
+.section_four__imagen {
+    text-align: end;
+    padding-top: 25px;
+    font-size: 14px;
 }
 
 .section_three {
     grid-area: section_three;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
 }
 
-.section_four {
-    grid-area: section_four;
+.subsection {
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    height: max-content;
+}
+
+.subsection__title {
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 20px;
+}
+
+.subsection__text {
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+}
+
+.subsection__imagen {
+    text-align: end;
+    padding-top: 25px;
 }
