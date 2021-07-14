@@ -1,4 +1,4 @@
-<h1 align="center">Four card feature section/h1>
+<h1 align="center">Four card feature section</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK" target="_blank">Frontend Mentor </a>.
@@ -40,7 +40,6 @@
 
 - HTML
 - CSS
-- Bootstrap 5
 
 
 
